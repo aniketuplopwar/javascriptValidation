@@ -7,9 +7,7 @@ export default class Validation {
     }
 
     getValidationMethods(name) {
-        
         return Object.keys(this.validationInfo[name]).map(validation => this.validationMethods[validation]);
-
     }
 
     validate(fieldName, value) {

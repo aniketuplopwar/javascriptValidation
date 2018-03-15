@@ -26,3 +26,20 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.expand-collapse {
+  border: 1px solid #ddd;
+}
+
+.expand-collapse-icon {
+  text-align: center;
+}
+
+.expand-collapse-header-content {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.expand-collapse-body {
+  padding: 20px;
+}
